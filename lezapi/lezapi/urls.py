@@ -1,5 +1,5 @@
 from django.urls import path
-from . import views
+from shadilo import views
 """
 URL configuration for lezapi project.
 

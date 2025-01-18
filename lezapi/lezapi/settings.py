@@ -24,7 +24,6 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-nuc4c69vvj4ukl11)+vgt=gq$d
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = ""
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -42,6 +41,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
+    "lezapi",
     "shadilo",
 ]
 
